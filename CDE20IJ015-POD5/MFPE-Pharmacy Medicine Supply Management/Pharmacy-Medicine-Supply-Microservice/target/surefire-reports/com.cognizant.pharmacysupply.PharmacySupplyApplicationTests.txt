@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.cognizant.pharmacysupply.PharmacySupplyApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 40.451 s <<< FAILURE! - in com.cognizant.pharmacysupply.PharmacySupplyApplicationTests
+main  Time elapsed: 11.663 s  <<< ERROR!
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8093 is already in use
+	at com.cognizant.pharmacysupply.PharmacySupplyApplicationTests.main(PharmacySupplyApplicationTests.java:22)
+Caused by: org.springframework.boot.web.server.PortInUseException: Port 8093 is already in use
+	at com.cognizant.pharmacysupply.PharmacySupplyApplicationTests.main(PharmacySupplyApplicationTests.java:22)
+Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
+	at com.cognizant.pharmacysupply.PharmacySupplyApplicationTests.main(PharmacySupplyApplicationTests.java:22)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at com.cognizant.pharmacysupply.PharmacySupplyApplicationTests.main(PharmacySupplyApplicationTests.java:22)
+Caused by: java.net.BindException: Address already in use: bind
+	at com.cognizant.pharmacysupply.PharmacySupplyApplicationTests.main(PharmacySupplyApplicationTests.java:22)
+

@@ -1,0 +1,1 @@
+insert into user (userid,password,username) values ('cde15pod5','cde15pod5','cde15pod5');

@@ -1,0 +1,10 @@
+com\cognizant\CustomerService\controller\CustomerTests.class
+com\cognizant\CustomerServiceTest\model\AccountTest.class
+com\cognizant\CustomerServiceTest\model\CustomerEntityTest.class
+com\cognizant\CustomerServiceTest\model\CustomerDetailResponsetest.class
+com\cognizant\CustomerServiceTest\model\TransactionTest.class
+com\cognizant\CustomerServiceTest\model\AccountStatusTest.class
+com\cognizant\CustomerService\CustomerServiceApplicationTests.class
+com\cognizant\CustomerServiceTest\model\AuthenticationresponcetTest.class
+com\cognizant\CustomerServiceTest\model\AppUserTest.class
+com\cognizant\CustomerServiceTest\model\AccountErrorResponseTest.class
